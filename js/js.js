@@ -6,9 +6,11 @@
         
         var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
         //var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/maxresdefault.jpg";
+	var title = youtube[i].dataset.title;
 		
         var image = new Image();
                 image.src = source;
+	    	image.alt = title;
                 image.addEventListener( "load", function() {
                     youtube[ i ].appendChild( image );
                 }( i ) );
