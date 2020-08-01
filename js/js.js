@@ -7,9 +7,9 @@
 
 		var image = new Image();
 		image.src = source;
+		//image.loading = "lazy";
 		image.alt = "Video with title: "+ youtube[i].dataset.title;
 		image.title = "Click to play video! "+ youtube[i].dataset.title;
-		image.loading = "lazy";
 		image.addEventListener( "load", function() {
 			youtube[ i ].appendChild( image );
 		} ( i ) );
@@ -19,6 +19,7 @@
 			iframe.setAttribute( "frameborder", "0" );
 			iframe.setAttribute( "allowfullscreen", "" );
 			iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+			iframe.setAttribute( "loading", "lazy");
 
 			this.innerHTML = "";
 			this.appendChild( iframe );
