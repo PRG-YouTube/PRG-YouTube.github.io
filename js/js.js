@@ -9,6 +9,7 @@
 		image.src = source;
 		image.alt = "Video with title: "+ youtube[i].dataset.title;
 		image.title = "Click to play video! "+ youtube[i].dataset.title;
+		image.loading = "lazy";
 		image.addEventListener( "load", function() {
 			youtube[ i ].appendChild( image );
 		} ( i ) );
