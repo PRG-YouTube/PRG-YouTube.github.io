@@ -7,7 +7,7 @@
 
 		var image = new Image();
 		image.src = source;
-		//image.loading = "lazy";
+		image.loading = "lazy";
 		image.alt = "Video with title: "+ youtube[i].dataset.title;
 		image.title = "Click to play video! "+ youtube[i].dataset.title;
 		image.addEventListener( "load", function() {
