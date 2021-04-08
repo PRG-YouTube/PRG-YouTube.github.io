@@ -1,4 +1,8 @@
-# This is the repository hosting my website
+<p align="center">
+  <img alt="PRG Logo" width="25%" height="25%" src="https://user-images.githubusercontent.com/68601223/114038159-eb406080-9881-11eb-8c3c-63e879ba2191.png">
+</p>
+
+# This is the repository of PRG, a YouTube creator, hosting my website
 ## https://prg-youtube.github.io/
 
 # All videos on that website are also in my channel on YouTube:
