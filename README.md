@@ -9,4 +9,4 @@
 ## https://www.youtube.com/channel/UCImr2ujL4518Hyy1iq7sq2A
 
 # I am also on LBRY/Odysee, find my channel here:
-## https://odysee.com/@PRG:d?r=211MC2wJft62QJbcW8oC2XKtPkcmgQBg
+## https://odysee.com/@PRG:d?r=211MC2wJft62QJbcW8oC2XKtPkcmgQBg (and use my invite url https://odysee.com/$/invite/@PRG:d )
