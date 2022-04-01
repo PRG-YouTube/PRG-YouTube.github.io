@@ -1,1 +1,6 @@
 User-agent: *
+Allow: /
+
+Sitemap: https://prg-youtube.github.io/sitemap.xml
+
+
